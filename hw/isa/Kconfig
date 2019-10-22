@@ -57,3 +57,8 @@ config LPC_ICH9
     select ISA_BUS
     select ACPI_SMBUS
     select ACPI_X86_ICH
+
+config PCIIA
+    bool
+    default y
+    select ISA_BUS
